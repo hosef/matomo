@@ -5,6 +5,8 @@ Adds the Matomo tracking system to your website.
 [Matomo](https://matomo.org/) is an Open Source analytics tool to track
 website traffic.
 
+This module is compatible with Matomo 3.x and 4.x.
+
 ## Requirements
 
 * Matomo installation
@@ -22,13 +24,11 @@ In the settings page enter your Matomo website ID.
 You will also need to define what user roles should be tracked.
 Simply tick the roles you would like to monitor.
 
-All pages will now have the required JavaScript added to the
+![Settings page](https://raw.githubusercontent.com/backdrop-contrib/matomo/1.x-2.x/screenshots/settings-page.webp)
+
+All pages will then have the required JavaScript added to the
 HTML footer can confirm this by viewing the page source from
 your browser.
-
-This module is compatible with Matomo 3.x and 4.x.
-
-![Settings page](https://raw.githubusercontent.com/backdrop-contrib/matomo/1.x-2.x/screenshots/settings-page.webp)
 
 ## Custom variables
 
