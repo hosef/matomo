@@ -1,25 +1,22 @@
-Matomo Analytics
-================
+# Matomo Analytics
 
 Adds the Matomo tracking system to your website.
 
 [Matomo](https://matomo.org/) is an Open Source analytics tool to track
 website traffic.
 
-Requirements
-------------
+## Requirements
 
 * Matomo installation
 * Matomo website account
 
 
-Installation
-------------
+## Installation
 
 - Install this module using the official [Backdrop CMS instructions](https://backdropcms.org/guide/modules)
 
-Usage
------
+## Usage
+
 In the settings page enter your Matomo website ID.
 
 You will also need to define what user roles should be tracked.
@@ -31,8 +28,10 @@ your browser.
 
 This module is compatible with Matomo 3.x and 4.x.
 
-Custom variables
-----------------
+![Settings page](https://raw.githubusercontent.com/backdrop-contrib/matomo/1.x-2.x/screenshots/settings-page.webp)
+
+## Custom variables
+
 One example for custom variables tracking is the "User roles" tracking. Enter
 the below configuration data into the custom variables settings form under
 admin/config/system/matomo.
@@ -51,37 +50,35 @@ More details about custom variables can be found in the Matomo API documentation
 at https://matomo.org/docs/javascript-tracking/#toc-custom-variables.
 
 
-Advanced Settings
------------------
+## Advanced Settings
+
 You can include additional JavaScript snippets in the advanced
 textarea. These can be found on various blog posts, or on the
-official Matomo pages. Support is not provided for any customisations
-you include.
+official Matomo pages.
+
+An example: `_paq.push(['disableCookies']);` to disable all tracking cookies
+for Matomo (GDPR, to avoid the necessity of a cookie consent banner).
 
 To speed up page loading you may also cache the matomo.js
 file locally. You need to make sure the site file system is in public
 download mode.
 
-Issues
-------
+## Issues
 
 Bugs and Feature requests should be reported in the [Issue Queue](https://github.com/backdrop-contrib/matomo/issues)
 
-Current Maintainers
--------------------
+## Current Maintainers
 
 - Joseph Flatt (https://github.com/hosef)
 - indigoxela (https://github.com/indigoxela)
 
-Credits
--------
+## Credits
 
 - Ported to Backdrop CMS by Joseph Flatt (https://github.com/hosef).
 - Maintained for Drupal by Alexander Hass (https://www.drupal.org/u/hass).
 - Initial Drupal development by Alexander Hass (https://www.drupal.org/u/hass).
 
-License
--------
+## License
 
 This project is GPL v2 software. See the LICENSE.txt file in this directory for
 complete text.
