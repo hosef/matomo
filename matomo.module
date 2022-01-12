@@ -79,7 +79,7 @@ function matomo_menu() {
  * Implements hook_config_info().
  */
 function matomo_config_info() {
-  $info['matomo'] = array(
+  $info['matomo.settings'] = array(
     'label' => t('Matomo'),
     'group' => t('Configuration'),
   );
