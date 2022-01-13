@@ -56,8 +56,9 @@ You can include additional JavaScript snippets in the advanced
 textarea. These can be found on various blog posts, or on the
 official Matomo pages.
 
-An example: `_paq.push(['disableCookies']);` to disable all tracking cookies
-for Matomo (GDPR, to avoid the necessity of a cookie consent banner).
+An example for "Code snippet (before)": `_paq.push(['disableCookies']);`
+This disables all tracking cookies for Matomo (GDPR, to avoid the necessity of a
+ cookie consent banner).
 
 To speed up page loading you may also cache the matomo.js
 file locally. You need to make sure the site file system is in public
