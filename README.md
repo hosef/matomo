@@ -30,6 +30,21 @@ All pages will then have the required JavaScript added to the
 HTML footer can confirm this by viewing the page source from
 your browser.
 
+### HTTP URL vs. HTTPS URL
+
+If your website has https turned on, it is necessary that the Matomo install
+ *also has https* turned on. This prevents "mixed content" warnings in browsers.
+
+It's absolutely OK and actually recommended that both url settings use https -
+ if your Matomo install has it.
+Browsers load content via https from within a http page, but refuse to load http
+ content from within a https page.
+
+Example:
+
+- Matomo HTTP URL: https://matomo.example.com/
+- Matomo HTTPS URL: https://matomo.example.com/
+
 ## Custom variables
 
 One example for custom variables tracking is the "User roles" tracking. Enter
